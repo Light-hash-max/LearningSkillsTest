@@ -60,14 +60,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.62352943, g: 0.62352943, b: 0.62352943, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 4320ec20da93f5849a56f2be6b0bca38, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -179,9 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9716ffc45eb140d4fb877e3d71ab1347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _skillsController: {fileID: 0}
   _costSkill: {fileID: 0}
-  _pointsPresenter: {fileID: 0}
   _currentSkillConditions: []
   _skillsAfterCurrentSkill: []
   _currentSkilllCompleteCondition: {fileID: 0}
@@ -197,7 +195,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dac339fa9139984e954aea003e7a4a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _skillController: {fileID: 5575681256902413269}
 --- !u!114 &2900540201347623603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,8 +209,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _currentSkill: {fileID: 0}
   _completeImage: {fileID: 1797750019175128023}
-  _completeColor: {r: 0.015686275, g: 0.5019608, b: 1, a: 1}
-  _incompleteColor: {r: 1, g: 1, b: 1, a: 1}
+  _completeColor: {r: 0.45882353, g: 0.40784314, b: 0.64705884, a: 1}
+  _incompleteColor: {r: 0.62352943, g: 0.62352943, b: 0.62352943, a: 1}
 --- !u!1 &1797750020892266414
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,14 +270,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.20784315, g: 0.28627452, b: 0.5176471, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 4320ec20da93f5849a56f2be6b0bca38, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -349,7 +346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.909804, g: 0.86274517, b: 0.7725491, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
