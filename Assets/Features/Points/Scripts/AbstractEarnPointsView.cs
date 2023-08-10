@@ -1,21 +1,23 @@
-namespace LearningSkillsTest.Features.Points
+п»їnamespace LearningSkillsTest.Features.Points
 {
     using UnityEngine;
 
     /// <summary>
-    /// Вьшка для заработка очков.
+    /// Р’СЊС€РєР° РґР»СЏ Р·Р°СЂР°Р±РѕС‚РєР° РѕС‡РєРѕРІ.
     /// </summary>
     public abstract class AbstractEarnPointsView : MonoBehaviour
     {
-        [SerializeField]
-        protected PointsPresenter _pointsPresenter = default;
         [SerializeField]
         protected int _earnPointsCount = 1;
         [SerializeField]
         protected string _pointsId = default;
 
+        protected PointsPresenter _pointsPresenter = default;
+
+        protected virtual void Awake() => _pointsPresenter = FindObjectOfType<PointsPresenter>();
+
         /// <summary>
-        /// Заработать очки.
+        /// Р—Р°СЂР°Р±РѕС‚Р°С‚СЊ РѕС‡РєРё.
         /// </summary>
         protected abstract void EarnPoints();
     }

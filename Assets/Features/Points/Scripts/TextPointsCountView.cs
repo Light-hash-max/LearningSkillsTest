@@ -1,10 +1,10 @@
-namespace LearningSkillsTest.Features.Points
+п»їnamespace LearningSkillsTest.Features.Points
 {
     using UnityEngine;
     using UnityEngine.UI;
 
     /// <summary>
-    /// Вьюшка количества очков в виде текста.
+    /// Р’СЊСЋС€РєР° РєРѕР»РёС‡РµСЃС‚РІР° РѕС‡РєРѕРІ РІ РІРёРґРµ С‚РµРєСЃС‚Р°.
     /// </summary>
     [RequireComponent(typeof(Text))]
     public sealed class TextPointsCountView : AbstractPointsCountView

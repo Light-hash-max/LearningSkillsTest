@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21b7a19f8e70bb44b8dd22f96b0a4ebe, type: 3}
+  m_Name: JumpCostCondition
+  m_EditorClassIdentifier: 
+  _id: JumpCostCondition
+  _skillCost: 3
+  _pointsModel: {fileID: 11400000, guid: 93116753abca3e94e96c376a0a5e1588, type: 2}

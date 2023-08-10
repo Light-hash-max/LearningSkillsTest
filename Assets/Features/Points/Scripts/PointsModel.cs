@@ -19,7 +19,12 @@
         /// </summary>
         public int PointsCount
         {
-            get => _pointsCount;
+            get
+            {
+                _pointsCount = PlayerPrefs.GetInt(PointsId, 0);
+
+                return _pointsCount;
+            }
 
             private set
             {
@@ -33,6 +38,10 @@
                     {
                         _pointsCount = value;
                     }
+
+                    PlayerPrefs.SetInt(PointsId, _pointsCount);
+                    PlayerPrefs.Save();
+
                     onValueChanged();
                 }
             }

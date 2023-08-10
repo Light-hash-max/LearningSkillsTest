@@ -1,18 +1,19 @@
-namespace LearningSkillsTest.Features.Points
+п»їnamespace LearningSkillsTest.Features.Points
 {
     using UnityEngine;
     using UnityEngine.UI;
 
     /// <summary>
-    /// Кнопка для заработка очков.
+    /// РљРЅРѕРїРєР° РґР»СЏ Р·Р°СЂР°Р±РѕС‚РєР° РѕС‡РєРѕРІ.
     /// </summary>
     [RequireComponent(typeof(Button))]
     public sealed class ButtonEarnPointsView : AbstractEarnPointsView
     {
         private Button _earnButton = null;
 
-        private void Awake()
+        protected override void Awake()
         {
+            base.Awake();
             _earnButton = GetComponent<Button>();
             _earnButton.onClick.AddListener(EarnPoints);
         }
